@@ -14,7 +14,7 @@ def connectionBD():
             port=55239,
             user="root",
             passwd="c6FeghAF1fCG53B5hc-C22ABG5bhf46F",
-                #passwd="-D2eD6aDb5Bg6dEbhAAeBB6gd3EheaBg",
+                #passwd="-3GNBRLZpGgc9kPcWT8aBiVNxPPJVGuqLR3",
             database="railway",
                 #database="crud_python",
             charset='utf8mb4',
@@ -28,3 +28,5 @@ def connectionBD():
 
     except mysql.connector.Error as error:
         print(f"No se pudo conectar: {error}")
+
+
